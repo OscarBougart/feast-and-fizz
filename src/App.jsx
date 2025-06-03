@@ -68,26 +68,28 @@ function App() {
               </h1>
             </div>
           </div>
-          <BottomNav
-            onFavorites={handleFavorites}
-            onFood={handleFood}
-            onCocktails={handleCocktails}
-            onSearch={handleSearch}
-          />
+        
         </div>
         
       )}
 
-      {page === 'search' && <SearchPage onBack={handleBack} />}
-      {page === 'food' && <FoodPage onBack={handleBack} />}
-      {page === 'menu' && <MenuPage onBack={handleBack} />}
-      {page === 'cocktail' && <CocktailPage onBack={handleBack} />}
       {page === 'favorites' && <FavoritesPage onBack={handleBack} />}
+      {page === 'food' && <FoodPage onBack={handleBack} />}
+      {page === 'cocktail' && <CocktailPage onBack={handleBack} />}
+      {page === 'search' && <SearchPage onBack={handleBack} />}
+      {page === 'menu' && <MenuPage onBack={handleBack} />}
       {page === 'profile' && <ProfilePage onBack={handleBack} />}
-    
+
+  <BottomNav
+    onFavorites={handleFavorites}
+    onFood={handleFood}
+    onCocktails={handleCocktails}
+    onSearch={handleSearch}
+  />
 
       
     </>
+    
   );
 }
 
