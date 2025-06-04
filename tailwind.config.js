@@ -11,7 +11,7 @@ theme: {
         farb2:'#E1E5F2',
         farb3:'#BFDBF7',
         farb4:'#00A6FB',
-        farb5:'#022B3A',
+        farbbutton:'#e63946',
         farb6:'#0582CA',
       },
       fontFamily: {

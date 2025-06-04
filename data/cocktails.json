@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Margarita",
+    "ingredients": [
+      { "name": "Tequila", "amount": "50ml" },
+      { "name": "Triple Sec", "amount": "25ml" },
+      { "name": "Lime Juice", "amount": "25ml" },
+      { "name": "Salt", "amount": "for rim" }
+    ],
+    "instructions": "Shake all ingredients with ice. Strain into a salt-rimmed glass."
+  }, 
+  {
+    "name": "20th Century",
+    "ingredients": [
+      { "name": "Gin", "amount": "54ml" },
+      { "name": "Creme de Cacao", "amount": "20ml" },
+      { "name": "Cocchi Americano", "amount": "20ml" },
+      { "name": "Lemon Juice", "amount": "20ml" }
+    ],
+    "instructions": "Shake all ingredients with ice. Strain into glass. Garnish lemon twist"
+  }, 
+  {
+    "name": "A La Louisiane",
+    "ingredients": [
+      { "name": "Rye Whiskey", "amount": "40ml" },
+      { "name": "Sweet Vermouth", "amount": "20ml" },
+      { "name": "Benedictine", "amount": "20ml" },
+      { "name": "Peychaud's Bitters", "amount": "2 dashes" },
+      { "name": "Absinthe", "amount": "1 dash" }
+    ],
+    "instructions": "Stir, strain, lemon twist."
+  }, 
+  {
+    "name": "African Flower",
+    "ingredients": [
+      { "name": "Bourbon", "amount": "50ml" },
+      { "name": "Ciociaro Sec", "amount": "15ml" },
+      { "name": "Creme de Cacao", "amount": "15ml" },
+      { "name": "Orange Bitter's", "amount": "2 dashes" }
+    ],
+    "instructions": "Stir, strain, orange twist"
+  }, 
+  {
+    "name": "Age of Aquarius",
+    "ingredients": [
+      { "name": "Mezcal", "amount": "40ml" },
+      { "name": "Campari(float)", "amount": "15ml" },
+      { "name": "Lime Juice", "amount": "20ml" },
+      { "name": "Passionfruit Syrup", "amount": "20ml" },
+      { "name": "Honey Syrup", "amount": "10ml" }
+    ],
+    "instructions": "Dry shake , pour, crushed ice, float campari garnish mint."
+  }, 
+   {
+    "name": "",
+    "ingredients": [
+      { "name": "", "amount": "" },
+      { "name": "", "amount": "" },
+      { "name": "", "amount": "" },
+      { "name": "", "amount": "" },
+      { "name": "", "amount": "" },
+      { "name": "", "amount": "" }
+    ],
+    "instructions": ""
+  }, 
+   {
+    "name": "",
+    "ingredients": [
+      { "name": "", "amount": "" },
+      { "name": "", "amount": "" },
+      { "name": "", "amount": "" },
+      { "name": "", "amount": "" },
+      { "name": "", "amount": "" },
+      { "name": "", "amount": "" }
+    ],
+    "instructions": ""
+  }, 
+  
+  {
+    "name": "Old Fashioned",
+    "ingredients": [
+      { "name": "Bourbon", "amount": "60ml" },
+      { "name": "Sugar", "amount": "1 cube" },
+      { "name": "Angostura Bitters", "amount": "2 dashes" },
+      { "name": "Orange Peel", "amount": "garnish" }
+    ],
+    "instructions": "Muddle sugar and bitters. Add bourbon and ice, stir. Garnish with orange peel."
+  },
+  {
+    "name": "Mojito",
+    "ingredients": [
+      { "name": "White Rum", "amount": "50ml" },
+      { "name": "Lime Juice", "amount": "25ml" },
+      { "name": "Sugar", "amount": "2 tsp" },
+      { "name": "Mint Leaves", "amount": "6 leaves" },
+      { "name": "Soda Water", "amount": "to top" }
+    ],
+    "instructions": "Muddle mint, sugar and lime. Add rum, fill with ice and top with soda."
+  },
+  {
+    "name": "Negroni",
+    "ingredients": [
+      { "name": "Gin", "amount": "30ml" },
+      { "name": "Campari", "amount": "30ml" },
+      { "name": "Sweet Vermouth", "amount": "30ml" }
+    ],
+    "instructions": "Stir all ingredients with ice and strain into a chilled glass."
+  },
+  {
+  "name": "Daiquiri",
+  "ingredients": [
+    { "name": "White Rum", "amount": "50ml" },
+    { "name": "Lime Juice", "amount": "25ml" },
+    { "name": "Sugar Syrup", "amount": "15ml" }
+  ],
+  "instructions": "Shake all ingredients with ice and strain into a chilled glass."
+},
+{
+  "name": "Whiskey Sour",
+  "ingredients": [
+    { "name": "Bourbon", "amount": "50ml" },
+    { "name": "Lemon Juice", "amount": "25ml" },
+    { "name": "Sugar Syrup", "amount": "12.5ml" },
+    { "name": "Egg White", "amount": "optional" }
+  ],
+  "instructions": "Shake all ingredients with ice and strain into a glass. Garnish with a cherry."
+},
+{
+  "name": "Manhattan",
+  "ingredients": [
+    { "name": "Rye Whiskey", "amount": "50ml" },
+    { "name": "Sweet Vermouth", "amount": "20ml" },
+    { "name": "Angostura Bitters", "amount": "2 dashes" }
+  ],
+  "instructions": "Stir with ice and strain into a chilled glass. Garnish with a cherry."
+},
+{
+  "name": "Martini",
+  "ingredients": [
+    { "name": "Gin", "amount": "60ml" },
+    { "name": "Dry Vermouth", "amount": "10ml" }
+  ],
+  "instructions": "Stir with ice and strain into a chilled glass. Garnish with an olive or lemon twist."
+},
+{
+  "name": "Tom Collins",
+  "ingredients": [
+    { "name": "Gin", "amount": "50ml" },
+    { "name": "Lemon Juice", "amount": "25ml" },
+    { "name": "Sugar Syrup", "amount": "12.5ml" },
+    { "name": "Soda Water", "amount": "to top" }
+  ],
+  "instructions": "Shake gin, lemon, and syrup with ice. Strain into a glass and top with soda."
+},
+{
+  "name": "Pina Colada",
+  "ingredients": [
+    { "name": "White Rum", "amount": "50ml" },
+    { "name": "Pineapple Juice", "amount": "75ml" },
+    { "name": "Coconut Cream", "amount": "25ml" }
+  ],
+  "instructions": "Blend all ingredients with ice and serve in a tall glass. Garnish with pineapple."
+},
+{
+  "name": "Mai Tai",
+  "ingredients": [
+    { "name": "White Rum", "amount": "30ml" },
+    { "name": "Dark Rum", "amount": "30ml" },
+    { "name": "Orange Curaçao", "amount": "15ml" },
+    { "name": "Lime Juice", "amount": "10ml" },
+    { "name": "Orgeat Syrup", "amount": "10ml" }
+  ],
+  "instructions": "Shake all ingredients with ice and strain into a glass filled with crushed ice."
+},
+{
+  "name": "Bloody Mary",
+  "ingredients": [
+    { "name": "Vodka", "amount": "50ml" },
+    { "name": "Tomato Juice", "amount": "100ml" },
+    { "name": "Lemon Juice", "amount": "15ml" },
+    { "name": "Worcestershire Sauce", "amount": "2 dashes" },
+    { "name": "Tabasco", "amount": "2 dashes" },
+    { "name": "Salt", "amount": "pinch" },
+    { "name": "Pepper", "amount": "pinch" }
+  ],
+  "instructions": "Stir all ingredients with ice and strain into a tall glass. Garnish with celery."
+},
+{
+  "name": "Moscow Mule",
+  "ingredients": [
+    { "name": "Vodka", "amount": "50ml" },
+    { "name": "Lime Juice", "amount": "25ml" },
+    { "name": "Ginger Beer", "amount": "to top" }
+  ],
+  "instructions": "Build in a copper mug with ice. Garnish with lime."
+},
+{
+  "name": "Aperol Spritz",
+  "ingredients": [
+    { "name": "Aperol", "amount": "50ml" },
+    { "name": "Prosecco", "amount": "75ml" },
+    { "name": "Soda Water", "amount": "25ml" }
+  ],
+  "instructions": "Build in a wine glass with ice. Garnish with orange."
+},
+{
+  "name": "French 75",
+  "ingredients": [
+    { "name": "Gin", "amount": "30ml" },
+    { "name": "Lemon Juice", "amount": "15ml" },
+    { "name": "Sugar Syrup", "amount": "10ml" },
+    { "name": "Champagne", "amount": "to top" }
+  ],
+  "instructions": "Shake gin, lemon, and syrup with ice. Strain into a flute and top with champagne."
+},
+{
+  "name": "Caipirinha",
+  "ingredients": [
+    { "name": "Cachaça", "amount": "50ml" },
+    { "name": "Lime", "amount": "half, cut into wedges" },
+    { "name": "Sugar", "amount": "2 tsp" }
+  ],
+  "instructions": "Muddle lime and sugar, add cachaça and ice, stir well."
+},
+{
+  "name": "Paloma",
+  "ingredients": [
+    { "name": "Tequila", "amount": "50ml" },
+    { "name": "Grapefruit Soda", "amount": "to top" },
+    { "name": "Lime Juice", "amount": "10ml" }
+  ],
+  "instructions": "Build in a glass with ice. Garnish with lime."
+},
+{
+  "name": "Gin Fizz",
+  "ingredients": [
+    { "name": "Gin", "amount": "50ml" },
+    { "name": "Lemon Juice", "amount": "25ml" },
+    { "name": "Sugar Syrup", "amount": "12.5ml" },
+    { "name": "Soda Water", "amount": "to top" }
+  ],
+  "instructions": "Shake gin, lemon, and syrup with ice. Strain into a glass and top with soda."
+},
+{
+  "name": "Rum Punch",
+  "ingredients": [
+    { "name": "Dark Rum", "amount": "50ml" },
+    { "name": "Pineapple Juice", "amount": "50ml" },
+    { "name": "Orange Juice", "amount": "50ml" },
+    { "name": "Grenadine", "amount": "10ml" }
+  ],
+  "instructions": "Shake all ingredients with ice and strain into a glass."
+},
+{
+  "name": "Sidecar",
+  "ingredients": [
+    { "name": "Cognac", "amount": "50ml" },
+    { "name": "Triple Sec", "amount": "20ml" },
+    { "name": "Lemon Juice", "amount": "20ml" }
+  ],
+  "instructions": "Shake all ingredients with ice and strain into a chilled glass."
+},
+{
+  "name": "Mint Julep",
+  "ingredients": [
+    { "name": "Bourbon", "amount": "60ml" },
+    { "name": "Mint Leaves", "amount": "8 leaves" },
+    { "name": "Sugar", "amount": "1 tsp" },
+    { "name": "Water", "amount": "2 tsp" }
+  ],
+  "instructions": "Muddle mint and sugar, add bourbon and water, fill with crushed ice."
+},
+{
+  "name": "Sazerac",
+  "ingredients": [
+    { "name": "Rye Whiskey", "amount": "50ml" },
+    { "name": "Absinthe", "amount": "rinse" },
+    { "name": "Sugar Cube", "amount": "1" },
+    { "name": "Peychaud's Bitters", "amount": "2 dashes" }
+  ],
+  "instructions": "Rinse glass with absinthe. Muddle sugar and bitters, add whiskey and ice, stir and strain."
+},
+{
+  "name": "Boulevardier",
+  "ingredients": [
+    { "name": "Bourbon or Rye", "amount": "30ml" },
+    { "name": "Campari", "amount": "30ml" },
+    { "name": "Sweet Vermouth", "amount": "30ml" }
+  ],
+  "instructions": "Stir all ingredients with ice and strain into a glass."
+},
+{
+  "name": "Espresso Martini",
+  "ingredients": [
+    { "name": "Vodka", "amount": "40ml" },
+    { "name": "Coffee Liqueur", "amount": "20ml" },
+    { "name": "Espresso", "amount": "20ml" }
+  ],
+  "instructions": "Shake all ingredients with ice and strain into a chilled glass."
+},
+{
+  "name": "Amaretto Sour",
+  "ingredients": [
+    { "name": "Amaretto", "amount": "50ml" },
+    { "name": "Lemon Juice", "amount": "25ml" },
+    { "name": "Sugar Syrup", "amount": "10ml" }
+  ],
+  "instructions": "Shake all ingredients with ice and strain into a glass. Garnish with a cherry."
+},
+  {
+    "name": "Cosmopolitan",
+    "ingredients": [
+      { "name": "Vodka", "amount": "45ml" },
+      { "name": "Triple Sec", "amount": "15ml" },
+      { "name": "Cranberry Juice", "amount": "30ml" },
+      { "name": "Lime Juice", "amount": "10ml" }
+    ],
+    "instructions": "Shake all ingredients with ice and strain into a cocktail glass."
+  }
+]
