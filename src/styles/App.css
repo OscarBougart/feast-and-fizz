@@ -7,12 +7,12 @@
 body{
     background: hsla(200, 100%, 49%, 1);
 
-    background: linear-gradient(225deg, hsla(200, 100%, 49%, 1) 0%, hsla(202, 95%, 41%, 1) 38%);
+background: linear-gradient(225deg, hsla(200, 100%, 49%, 1) 0%, hsla(202, 95%, 41%, 1) 38%);
 
-    background: -moz-linear-gradient(225deg, hsla(200, 100%, 49%, 1) 0%, hsla(202, 95%, 41%, 1) 38%);
+background: -moz-linear-gradient(225deg, hsla(200, 100%, 49%, 1) 0%, hsla(202, 95%, 41%, 1) 38%);
 
-    background: -webkit-linear-gradient(225deg, hsla(200, 100%, 49%, 1) 0%, hsla(202, 95%, 41%, 1) 38%);
+background: -webkit-linear-gradient(225deg, hsla(200, 100%, 49%, 1) 0%, hsla(202, 95%, 41%, 1) 38%);
 
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00A6FB", endColorstr="#0582CA", GradientType=1 );
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00A6FB", endColorstr="#0582CA", GradientType=1 );
 }
 

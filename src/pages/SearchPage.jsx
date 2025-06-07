@@ -1,10 +1,14 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import cocktails from '/data/cocktails.json'; 
 
-function SearchPage({ onBack }) {
+function SearchPage({ onBack, onCocktailSelect }) {
   const [query, setQuery] = useState('');
+  const inputRef = useRef(null)
 
-  // Filter cocktails by search query (case-insensitive)
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
+
   const filtered = cocktails.filter(c =>
     c.name.toLowerCase().includes(query.toLowerCase())
   );
@@ -15,6 +19,7 @@ function SearchPage({ onBack }) {
       </button>
       <div className="pt-9 sticky top-0 z-10 bg-white dark:bg-farb4">
       <input
+        ref={inputRef}
         className="border p-2 rounded mb-6 mx-4 w-[calc(100%-2rem)]"
         placeholder="Search..."
         value={query}
@@ -23,10 +28,11 @@ function SearchPage({ onBack }) {
     </div>
      <div className="flex flex-col">
   {filtered.map((cocktail, idx) => (
-    <div
+    <button
       key={cocktail.name}
+      onClick={() => onCocktailSelect(cocktail)} 
       className={
-        `w-full shadow pt-1 py-10 text-center text-farb1 font-bold ` +
+        `w-full shadow pt-1 py-10 text-center text-farbfont font-bold ` +
         (idx % 2 === 0 ? 'bg-farb6' : 'bg-farb4') +
         (idx !== 0 ? ' -mt-8' : '') +
         ' rounded-t-[2rem] ' +
@@ -34,14 +40,14 @@ function SearchPage({ onBack }) {
       }
     >
       <div className="text-lg font-extrabold">{cocktail.name}</div>
-      <div className="text-sm pl-12 pr-12 font-normal  text-farb1 mt-2 text-center truncate w-full">
+      <div className="text-sm pl-12 pr-12 font-normal  text-farbfont mt-2 text-center truncate w-full">
   {cocktail.ingredients &&
     cocktail.ingredients
       .map(ing => ing.name)
       .join(', ')
   }
 </div>
-    </div>
+    </button>
   ))}
   {filtered.length === 0 && (
     <div className="text-center text-gray-400">No results</div>

@@ -12,7 +12,7 @@
   {
     "name": "20th Century",
     "ingredients": [
-      { "name": "Gin", "amount": "54ml" },
+      { "name": "Gin", "amount": "50ml" },
       { "name": "Creme de Cacao", "amount": "20ml" },
       { "name": "Cocchi Americano", "amount": "20ml" },
       { "name": "Lemon Juice", "amount": "20ml" }
