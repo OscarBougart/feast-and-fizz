@@ -107,6 +107,7 @@ function App() {
       />
 
       
+      
       <BottomNav
         currentPage={page}
         onFavorites={handleFavorites}

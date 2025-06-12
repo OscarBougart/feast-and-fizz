@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Spaghetti Carbonara",
+    "ingredients": [
+      { "name": "Spaghetti", "amount": "200g" },
+      { "name": "Pancetta", "amount": "100g" },
+      { "name": "Eggs", "amount": "2" },
+      { "name": "Parmesan Cheese", "amount": "50g" },
+      { "name": "Black Pepper", "amount": "to taste" }
+    ],
+    "instructions": "Cook spaghetti. Fry pancetta. Beat eggs with cheese and pepper. Combine all off heat."
+  },
+  {
+    "name": "Chicken Tikka Masala",
+    "ingredients": [
+      { "name": "Chicken Breast", "amount": "300g" },
+      { "name": "Yogurt", "amount": "100g" },
+      { "name": "Tomato Puree", "amount": "200g" },
+      { "name": "Garam Masala", "amount": "2 tsp" },
+      { "name": "Cream", "amount": "50ml" }
+    ],
+    "instructions": "Marinate chicken in yogurt and spices. Grill, then simmer in tomato sauce and cream."
+  },
+  {
+    "name": "Beef Tacos",
+    "ingredients": [
+      { "name": "Ground Beef", "amount": "250g" },
+      { "name": "Taco Shells", "amount": "6" },
+      { "name": "Lettuce", "amount": "50g" },
+      { "name": "Cheddar Cheese", "amount": "50g" },
+      { "name": "Salsa", "amount": "to taste" }
+    ],
+    "instructions": "Cook beef with spices. Fill taco shells with beef, lettuce, cheese, and salsa."
+  },
+  {
+    "name": "Caprese Salad",
+    "ingredients": [
+      { "name": "Tomatoes", "amount": "2" },
+      { "name": "Mozzarella", "amount": "100g" },
+      { "name": "Basil Leaves", "amount": "a handful" },
+      { "name": "Olive Oil", "amount": "2 tbsp" },
+      { "name": "Salt", "amount": "to taste" }
+    ],
+    "instructions": "Slice tomatoes and mozzarella. Layer with basil. Drizzle with olive oil and salt."
+  },
+  {
+    "name": "Pad Thai",
+    "ingredients": [
+      { "name": "Rice Noodles", "amount": "150g" },
+      { "name": "Shrimp", "amount": "100g" },
+      { "name": "Egg", "amount": "1" },
+      { "name": "Bean Sprouts", "amount": "50g" },
+      { "name": "Pad Thai Sauce", "amount": "3 tbsp" }
+    ],
+    "instructions": "Stir-fry shrimp and egg. Add noodles, sauce, and sprouts. Toss and serve."
+  },
+  {
+    "name": "Margherita Pizza",
+    "ingredients": [
+      { "name": "Pizza Dough", "amount": "1 base" },
+      { "name": "Tomato Sauce", "amount": "100g" },
+      { "name": "Mozzarella", "amount": "100g" },
+      { "name": "Basil Leaves", "amount": "a handful" },
+      { "name": "Olive Oil", "amount": "1 tbsp" }
+    ],
+    "instructions": "Spread sauce on dough. Top with mozzarella and basil. Bake until golden."
+  },
+  {
+    "name": "Caesar Salad",
+    "ingredients": [
+      { "name": "Romaine Lettuce", "amount": "100g" },
+      { "name": "Croutons", "amount": "30g" },
+      { "name": "Parmesan Cheese", "amount": "30g" },
+      { "name": "Caesar Dressing", "amount": "3 tbsp" },
+      { "name": "Chicken Breast", "amount": "optional, 100g" }
+    ],
+    "instructions": "Toss lettuce with dressing. Top with croutons, cheese, and sliced chicken if desired."
+  },
+  {
+    "name": "Vegetable Stir Fry",
+    "ingredients": [
+      { "name": "Broccoli", "amount": "50g" },
+      { "name": "Carrots", "amount": "50g" },
+      { "name": "Bell Pepper", "amount": "50g" },
+      { "name": "Soy Sauce", "amount": "2 tbsp" },
+      { "name": "Garlic", "amount": "1 clove" }
+    ],
+    "instructions": "Stir-fry vegetables with garlic. Add soy sauce and cook until tender."
+  },
+  {
+    "name": "French Omelette",
+    "ingredients": [
+      { "name": "Eggs", "amount": "3" },
+      { "name": "Butter", "amount": "1 tbsp" },
+      { "name": "Salt", "amount": "to taste" },
+      { "name": "Pepper", "amount": "to taste" },
+      { "name": "Chives", "amount": "optional, to garnish" }
+    ],
+    "instructions": "Beat eggs. Cook gently in butter, fold, and garnish with chives."
+  },
+  {
+    "name": "Falafel Wrap",
+    "ingredients": [
+      { "name": "Falafel Balls", "amount": "4" },
+      { "name": "Pita Bread", "amount": "1" },
+      { "name": "Lettuce", "amount": "30g" },
+      { "name": "Tomato", "amount": "1" },
+      { "name": "Tahini Sauce", "amount": "2 tbsp" }
+    ],
+    "instructions": "Fill pita with falafel, lettuce, tomato, and tahini sauce. Wrap and serve."
+  }
+]
