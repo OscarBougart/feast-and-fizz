@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './styles/App.css';
 import SearchPage from './pages/SearchPage';
 import FoodPage from './pages/FoodPage';
@@ -11,16 +11,34 @@ import SyrupsPage from './pages/SyrupsPage';
 import SettingsPage from './pages/SettingsPage';
 import SciencePage from './pages/SciencePage';
 
-
+function getInitialFavorites() {
+const stored = localStorage.getItem("favorites");
+  return stored ? JSON.parse(stored): [];
+}
 
 function App() {
   const [page, setPage] = useState('home');
   const [selectedCocktail, setSelectedCocktail] = useState(null);
-  const [menuOpen, setMenuOpen] = useState(false); // NEW
+  const [menuOpen, setMenuOpen] = useState(false); 
+  const [favorites, setFavorites] = useState(getInitialFavorites);
+
+    useEffect(() => {
+    localStorage.setItem("favorites", JSON.stringify(favorites));
+    }, [favorites]);
+
+
 
   function handleCocktailSelect(cocktail) {
     setSelectedCocktail(cocktail);
     setPage('cocktail');
+  }
+
+  function toggleFavorite(item) {
+    setFavorites(favs =>
+      favs.some(fav => fav.name === item.name)
+        ? favs.filter(fav => fav.name !== item.name)
+        : [...favs, item]
+    );
   }
 
   const handleMenu = () => setMenuOpen(true); // CHANGED
@@ -84,9 +102,27 @@ function App() {
         </div>
       )}
       {page === 'search' && (<SearchPage onBack={handleBack} onCocktailSelect={handleCocktailSelect} />)}
-      {page === 'favorites' && <FavoritesPage onBack={handleBack} />}
-      {page === 'food' && <FoodPage onBack={handleBack} />}
-      {page === 'cocktail' && (<CocktailPage cocktail={selectedCocktail} onBack={handleBack} />)}
+      {page === 'favorites' && 
+        <FavoritesPage 
+          onBack={handleBack}
+          favorites={favorites}
+          toggleFavorite={toggleFavorite}
+          />}
+      {page === 'food' && (
+        <FoodPage
+          onBack={handleBack}
+          favorites={favorites}
+          toggleFavorite={toggleFavorite}
+        />
+      )}
+      {page === 'cocktail' && (
+        <CocktailPage
+          cocktail={selectedCocktail}
+          onBack={handleBack}
+          favorites={favorites}
+          toggleFavorite={toggleFavorite}
+        />
+      )}      
       {page === 'profile' && <ProfilePage onBack={handleBack} />}
       {page === 'syrups' && <SyrupsPage onBack={handleBack} />}
       {page === 'science' && <SciencePage onBack={handleBack} />}
@@ -103,8 +139,8 @@ function App() {
         onSyrups={handleSyrups}   // <-- here
         onSettings={handleSettings}
         
-        
-      />
+/>
+
 
       
       

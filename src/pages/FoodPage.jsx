@@ -1,7 +1,7 @@
 import { useState } from "react";
 import foodData from '/data/food.json';
 
-function FoodPage({ onBack }) {
+function FoodPage({ onBack, favorites = [], toggleFavorite }) {
   const [selectedFood, setSelectedFood] = useState(null);
   const [query, setQuery] = useState('');
 
@@ -10,6 +10,12 @@ function FoodPage({ onBack }) {
       <div className="sticky pb-20 min-h-screen flex-1 flex flex-col">
         <button className="ml-auto text-farb3 justify-end mt-4 px-4 py-2 rounded" onClick={() => setSelectedFood(null)}>
           Back to list
+        </button>
+        <button
+          className="mt-4 px-4 py-2 bg-farb1 text-white rounded"
+          onClick={() => toggleFavorite(selectedFood)}
+        >
+          {favorites.some(fav => fav.name === selectedFood.name) ? "Remove from Favorites" : "Add to Favorites"}
         </button>
         <div className="pt-6 sticky top-0 z-10 ">
           <h1 className="text-3xl text-farb3 font-extrabold text-center mb-4">{selectedFood.name}</h1>

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import cocktails from '/data/cocktails.json';
 
-function CocktailPage({ onBack }) {
+function CocktailPage({ onBack, favorites = [], toggleFavorite }) {
   const [selectedCocktail, setSelectedCocktail] = useState(null);
   const [query, setQuery] = useState('');
 
@@ -11,6 +11,13 @@ function CocktailPage({ onBack }) {
         <button className="ml-auto text-farb3 justify-end mt-4 px-4 py-2 rounded" onClick={() => setSelectedCocktail(null)}>
           Back to list
         </button>
+        <button
+          className="mt-4 px-4 py-2 bg-farb1 text-white rounded"
+          onClick={() => toggleFavorite(selectedCocktail)}
+        >
+          {favorites.some(fav => fav.name === selectedCocktail.name) ? "Remove from Favorites" : "Add to Favorites"}
+        </button>
+        
         <div className="pt-6 sticky top-0 z-10 ">
           <h1 className="text-3xl text-farb3 font-extrabold text-center mb-4">{selectedCocktail.name}</h1>
         </div>
