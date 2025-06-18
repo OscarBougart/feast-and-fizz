@@ -93,7 +93,7 @@ function App() {
 
           {/* Centered logo/title */}
           <div className="flex-1 flex flex-col -mt-44 items-center justify-center shadow-xl">
-            <div className="shadow-xl pl-10 pr-10 border-t-[2vw] border-b-[2vw] border-farbborders ">
+            <div className="shadow-xl  pl-10 pr-10 border-t-[2vw] border-b-[2vw] border-farbborders ">
               <h1 className="font-kapakana text-farb3 tracking-tight tracking-wider text-center font-extrabold text-[min(25vw,150px)]">
                 Feast
               </h1>

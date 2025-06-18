@@ -86,7 +86,7 @@ function SearchPage({ onBack }) {
             )}
           </div>
         </div>
-        <button className="mt-8 px-4 py-2 bg-farb1 text-white rounded" onClick={() => setSelectedFood(null)}>
+        <button className="mt-8 px-4 py-2 bg-farb1 text-white rounded" onClick={() => setSelected(null)}>
           Back
         </button>
       </div>
@@ -105,10 +105,10 @@ function SearchPage({ onBack }) {
       <button className="text-farbfont ml-auto mb-8 justify-end mt-4 px-4 py-2 rounded" onClick={onBack}>
         Back
       </button>
-      <div className="pt-9 sticky top-0 z-10 bg-white dark:bg-farb4">
+      <div className="pt-9 sticky top-0 z-10 ">
         <input
           ref={inputRef}
-          className="border p-2 rounded mb-6 mx-4 w-[calc(100%-2rem)]"
+          className="p-2 rounded-xl  mb-6 mx-4 w-[calc(100%-2rem)]"
           placeholder="Search..."
           value={query}
           onChange={e => setQuery(e.target.value)}

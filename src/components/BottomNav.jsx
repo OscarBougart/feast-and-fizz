@@ -6,7 +6,7 @@ function BottomNav({
   currentPage 
 }) {
   return (
-    <div className="fixed z-39 w-96 h-16 max-w-lg -translate-x-1/2 rounded bottom-0 left-1/2 bg-farbnav">
+    <div className="fixed z-39 w-96 h-20 max-w-lg -translate-x-1/2 rounded bottom-0 left-1/2 bg-farbnav">
       <div className="grid h-full max-w-lg grid-cols-4 mx-auto">
         {/* Button Template */}
         {[
@@ -43,7 +43,7 @@ function BottomNav({
           >
            <div
   className={`p-2 ${key === currentPage ? 'bg-farbgbutton rounded-full' : ''}`}
-  style={key === currentPage ? { boxShadow: 'inset 0 2px 8px 0 rgba(0,0,0,0.25)' } : {}}
+  style={key === currentPage ? { boxShadow: 'inset 0 8  px 8px 0 rgba(0,0,0,0.25)' } : {}}
 >
   <div className={`transition-colors drop-shadow-lg ${key === currentPage ? 'text-farbbutton' : 'text-farbfont'}`}>
     {icon}

@@ -10,11 +10,11 @@ theme: {
         farbfont:'#fafdfd', //font and buttons white
         farb2:'#',
         farb3:'#fafdfd',//title logo
-        farbbutton:'#e95d54', //button hover
-        farbnav:'#07b0ac',//background of nav bar
-        farbgbutton:'#79DFDE' ,
-        farb4:'#00A6FB',//index change of color
-        farb6:'#0582CA',//change of color index
+        farbbutton:'#04E762', //button hover
+        farbgbutton:'#08829A',//background of hover
+        farbnav:'#016B81',//background of nav bar
+        farb4:'#005365',//index change of color
+        farb6:'#016b81',//change of color index
         farbborders:'fafdfd'
       },
       

@@ -57,9 +57,9 @@ function FavoritesPage({ favorites = [], onBack, toggleFavorite }) {
       <button className="ml-auto mb-8 justify-end text-farbfont mt-4 px-4 py-2 rounded" onClick={onBack}>
         Back
       </button>
-      <div className="pt-9 sticky top-0 z-10 bg-white dark:bg-farb4">
+      <div className="pt-9 sticky top-0 z-10 ">
         <input
-          className="border p-2 rounded mb-6 mx-4 w-[calc(100%-2rem)]"
+          className="border rounded-xl p-2 rounded mb-6 mx-4 w-[calc(100%-2rem)]"
           placeholder="Search favorites..."
           value={query}
           onChange={e => setQuery(e.target.value)}
