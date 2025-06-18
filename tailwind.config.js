@@ -7,12 +7,15 @@ export default {
 theme: {
     extend: {
       colors: {
-        farbfont:'#DCF3FF', //font and buttons white
+        farbfont:'#fafdfd', //font and buttons white
         farb2:'#',
-        farb3:'#BFDBF7',//title logo
-        farb4:'#00A6FB',//background of search? index change of color
-        farbbutton:'#e63946', //button hover
-        farb6:'#0582CA',//change of color
+        farb3:'#fafdfd',//title logo
+        farbbutton:'#e95d54', //button hover
+        farbnav:'#07b0ac',//background of nav bar
+        farbgbutton:'#79DFDE' ,
+        farb4:'#00A6FB',//index change of color
+        farb6:'#0582CA',//change of color index
+        farbborders:'fafdfd'
       },
       
       

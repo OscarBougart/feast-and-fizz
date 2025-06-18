@@ -56,6 +56,7 @@ function App() {
   return (
     <>
       {/* Main app content always rendered */}
+      
       {page === 'home' && (
         <div className="overflow-hidden h-screen flex flex-col">
           {/* Top bar */}
@@ -88,9 +89,11 @@ function App() {
               </svg>
             </button>
           </div>
+
+
           {/* Centered logo/title */}
           <div className="flex-1 flex flex-col -mt-44 items-center justify-center shadow-xl">
-            <div className="shadow-xl pl-10 pr-10 border-t-[2vw] border-b-[2vw]">
+            <div className="shadow-xl pl-10 pr-10 border-t-[2vw] border-b-[2vw] border-farbborders ">
               <h1 className="font-kapakana text-farb3 tracking-tight tracking-wider text-center font-extrabold text-[min(25vw,150px)]">
                 Feast
               </h1>
@@ -101,6 +104,9 @@ function App() {
           </div>
         </div>
       )}
+
+
+
       {page === 'search' && (<SearchPage onBack={handleBack} onCocktailSelect={handleCocktailSelect} />)}
       {page === 'favorites' && 
         <FavoritesPage 

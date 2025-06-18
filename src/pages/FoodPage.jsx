@@ -38,9 +38,9 @@ function FoodPage({ onBack, favorites = [], toggleFavorite }) {
             )}
           </div>
         </div>
-        <button className="mt-8 px-4 py-2 bg-farb1 text-white rounded" onClick={onBack}>
-          Back
-        </button>
+    <button className="mt-8 px-4 py-2 bg-farb1 text-white rounded" onClick={() => setSelectedFood(null)}>
+  Back
+</button>
       </div>
     );
   }

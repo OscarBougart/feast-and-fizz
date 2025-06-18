@@ -2,13 +2,96 @@ import { useState, useRef, useEffect } from 'react';
 import cocktails from '/data/cocktails.json'; 
 import foodData from '/data/food.json';
 
-function SearchPage({ onBack, onCocktailSelect, onFoodSelect }) {
+function SearchPage({ onBack }) {
   const [query, setQuery] = useState('');
+  const [selectedCocktail, setSelectedCocktail] = useState(null);
+  const [selectedFood, setSelectedFood] = useState(null);
   const inputRef = useRef(null);
 
   useEffect(() => {
-    inputRef.current?.focus();
-  }, []);
+    if (!selectedCocktail && !selectedFood) {
+      inputRef.current?.focus();
+    }
+  }, [selectedCocktail, selectedFood]);
+
+  if (selectedCocktail) {
+    return (
+      <div className="sticky pb-20 min-h-screen flex-1 flex flex-col">
+        <button
+          className="ml-auto text-farb3 justify-end mt-4 px-4 py-2 rounded"
+          onClick={() => setSelectedCocktail(null)}
+        >
+          Back to search
+        </button>
+        <div className="pt-6 sticky top-0 z-10 ">
+          <h1 className="text-3xl text-farb3 font-extrabold text-center mb-4">{selectedCocktail.name}</h1>
+        </div>
+        <div className="flex flex-col items-center px-6">
+          <div className="w-full italic max-w-xl text-farb3 p-6 mb-6">
+            <ul className="mb-4">
+              {selectedCocktail.ingredients.map((ing, i) => (
+                <li key={i}>
+                  {ing.amount ? `${ing.amount} ` : ''}
+                  {ing.name}
+                </li>
+              ))}
+            </ul>
+            {selectedCocktail.instructions && (
+              <>
+                <h2 className="text-xl font-bold mb-2"></h2>
+                <p>{selectedCocktail.instructions}</p>
+              </>
+            )}
+          </div>
+        </div>
+        <button 
+          className="mt-8 px-4 py-2 bg-farb1 text-white rounded" 
+          onClick={() => {
+            setSelectedCocktail(null);
+            setSelectedFood(null)
+            }}>
+          Back
+        </button>
+      </div>
+    );
+  }
+
+  if (selectedFood) {
+    return (
+      <div className="sticky pb-20 min-h-screen flex-1 flex flex-col">
+        <button
+          className="ml-auto text-farb3 justify-end mt-4 px-4 py-2 rounded"
+          onClick={() => setSelectedFood(null)}
+        >
+          Back to search
+        </button>
+        <div className="pt-6 sticky top-0 z-10 ">
+          <h1 className="text-3xl text-farb3 font-extrabold text-center mb-4">{selectedFood.name}</h1>
+        </div>
+        <div className="flex flex-col items-center px-6">
+          <div className="w-full italic max-w-xl text-farb3 p-6 mb-6">
+            <ul className="mb-4">
+              {selectedFood.ingredients.map((ing, i) => (
+                <li key={i}>
+                  {ing.amount ? `${ing.amount} ` : ''}
+                  {ing.name}
+                </li>
+              ))}
+            </ul>
+            {selectedFood.instructions && (
+              <>
+                <h2 className="text-xl font-bold mb-2"></h2>
+                <p>{selectedFood.instructions}</p>
+              </>
+            )}
+          </div>
+        </div>
+        <button className="mt-8 px-4 py-2 bg-farb1 text-white rounded" onClick={() => setSelectedFood(null)}>
+          Back
+        </button>
+      </div>
+    );
+  }
 
   const filteredCocktails = cocktails.filter(c =>
     c.name.toLowerCase().includes(query.toLowerCase())
@@ -38,7 +121,7 @@ function SearchPage({ onBack, onCocktailSelect, onFoodSelect }) {
         {filteredCocktails.map((cocktail, idx) => (
           <button
             key={'cocktail-' + cocktail.name}
-            onClick={() => onCocktailSelect && onCocktailSelect(cocktail)}
+            onClick={() => setSelectedCocktail(cocktail)}
             className={
               `w-full shadow pt-1 py-10 text-center text-farbfont font-bold ` +
               (idx % 2 === 0 ? 'bg-farb6' : 'bg-farb4') +
@@ -59,7 +142,7 @@ function SearchPage({ onBack, onCocktailSelect, onFoodSelect }) {
         {filteredFood.map((food, idx) => (
           <button
             key={'food-' + food.name}
-            onClick={() => onFoodSelect && onFoodSelect(food)}
+            onClick={() => setSelectedFood(food)}
             className={
               `w-full shadow pt-1 py-10 text-center text-farbfont font-bold ` +
               (idx % 2 === 0 ? 'bg-farb4' : 'bg-farb6') +

@@ -45,7 +45,7 @@ function FavoritesPage({ favorites = [], onBack, toggleFavorite }) {
             )}
           </div>
         </div>
-        <button className="mt-8 px-4 py-2 bg-farb1 text-white rounded" onClick={onBack}>
+        <button className="mt-8 px-4 py-2 bg-farb1 text-white rounded" onClick={() => setSelectedCocktail(null)}>
           Back
         </button>
       </div>
