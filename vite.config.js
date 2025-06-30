@@ -5,28 +5,53 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig({
   plugins: [
     react(),
+    
     VitePWA({
       registerType: 'autoUpdate',
+      base: './',
+      injectRegister: 'script',
+      devOptions: {
+        enabled: true
+      },
+      includeAssets: ['favicon.svg', 'favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
         name: 'Feast & Fizz',
         short_name: 'FeastFizz',
-        start_url: '.',
-        display: 'standalone',
+        description: 'Food and cocktail app',
+        theme_color: '#ffffff',
         background_color: '#ffffff',
-        theme_color: '#f5f5f5',
+        display: 'standalone',
+        start_url: '/',
         icons: [
           {
-            src: 'icon-192.png',
+            src: '/pwa-192x192.png',
             sizes: '192x192',
-            type: 'image/png'
+            type: 'image/png',
           },
           {
-            src: 'icon-512.png',
+            src: '/pwa-512x512.png',
             sizes: '512x512',
-            type: 'image/png'
+            type: 'image/png',
           }
-        ]
-      }
+        ],
+      },
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+        runtimeCaching: [
+          {
+            urlPattern: ({ request }) =>
+              ['document', 'script', 'style', 'image', 'font'].includes(request.destination),
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'assets',
+              expiration: {
+                maxEntries: 100,
+                maxAgeSeconds: 60 * 60 * 24 * 30, // 30 Days
+              },
+            },
+          },
+        ],
+      },
     })
   ]
 });
