@@ -17,12 +17,10 @@ function SearchPage({ onBack }) {
   if (selectedCocktail) {
     return (
       <div className="sticky pb-20 min-h-screen flex-1 flex flex-col">
-        <button
-          className="ml-auto text-farb3 justify-end mt-4 px-4 py-2 rounded"
-          onClick={() => setSelectedCocktail(null)}
-        >
-          Back to search
-        </button>
+        <button className="text-farbfont mr-auto  justify-start mt-4 px-4 py-2 rounded" onClick={()=> setSelectedCocktail(null)}>
+        <svg width="50px" height="50px" viewBox="0 0 1024 1024" fill="currentColor" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M669.6 849.6c8.8 8 22.4 7.2 30.4-1.6s7.2-22.4-1.6-30.4l-309.6-280c-8-7.2-8-17.6 0-24.8l309.6-270.4c8.8-8 9.6-21.6 2.4-30.4-8-8.8-21.6-9.6-30.4-2.4L360.8 480.8c-27.2 24-28 64-0.8 88.8l309.6 280z" fill=""/> </svg>
+      </button>
+       
         <div className="pt-6 sticky top-0 z-10 ">
           <h1 className="text-3xl text-farb3 font-extrabold text-center mb-4">{selectedCocktail.name}</h1>
         </div>
@@ -44,14 +42,7 @@ function SearchPage({ onBack }) {
             )}
           </div>
         </div>
-        <button 
-          className="mt-8 px-4 py-2 bg-farb1 text-white rounded" 
-          onClick={() => {
-            setSelectedCocktail(null);
-            setSelectedFood(null)
-            }}>
-          Back
-        </button>
+
       </div>
     );
   }
@@ -59,12 +50,10 @@ function SearchPage({ onBack }) {
   if (selectedFood) {
     return (
       <div className="sticky pb-20 min-h-screen flex-1 flex flex-col">
-        <button
-          className="ml-auto text-farb3 justify-end mt-4 px-4 py-2 rounded"
-          onClick={() => setSelectedFood(null)}
-        >
-          Back to search
-        </button>
+        <button className="text-farbfont mr-auto  justify-start mt-4 px-4 py-2 rounded" onClick={()=> setSelectedFood(null)}>
+        <svg width="50px" height="50px" viewBox="0 0 1024 1024" fill="currentColor" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M669.6 849.6c8.8 8 22.4 7.2 30.4-1.6s7.2-22.4-1.6-30.4l-309.6-280c-8-7.2-8-17.6 0-24.8l309.6-270.4c8.8-8 9.6-21.6 2.4-30.4-8-8.8-21.6-9.6-30.4-2.4L360.8 480.8c-27.2 24-28 64-0.8 88.8l309.6 280z" fill=""/> </svg>
+      </button>
+        
         <div className="pt-6 sticky top-0 z-10 ">
           <h1 className="text-3xl text-farb3 font-extrabold text-center mb-4">{selectedFood.name}</h1>
         </div>
@@ -86,9 +75,7 @@ function SearchPage({ onBack }) {
             )}
           </div>
         </div>
-        <button className="mt-8 px-4 py-2 bg-farb1 text-white rounded" onClick={() => setSelected(null)}>
-          Back
-        </button>
+
       </div>
     );
   }
@@ -102,8 +89,8 @@ function SearchPage({ onBack }) {
 
   return (
     <div className="sticky pb-20 min-h-screen flex-1 flex flex-col">
-      <button className="text-farbfont ml-auto mb-8 justify-end mt-4 px-4 py-2 rounded" onClick={onBack}>
-        Back
+      <button className="text-farbfont mr-auto  justify-start mt-4 px-4 py-2 rounded" onClick={onBack}>
+        <svg width="50px" height="50px" viewBox="0 0 1024 1024" fill="currentColor" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M669.6 849.6c8.8 8 22.4 7.2 30.4-1.6s7.2-22.4-1.6-30.4l-309.6-280c-8-7.2-8-17.6 0-24.8l309.6-270.4c8.8-8 9.6-21.6 2.4-30.4-8-8.8-21.6-9.6-30.4-2.4L360.8 480.8c-27.2 24-28 64-0.8 88.8l309.6 280z" fill=""/> </svg>
       </button>
       <div className="pt-9 sticky top-0 z-10 ">
         <input
@@ -116,14 +103,14 @@ function SearchPage({ onBack }) {
       </div>
       <div className="flex flex-col">
         {filteredCocktails.length > 0 && (
-          <div className="text-lg font-bold text-farb3 px-6 mt-4 mb-2">Cocktails</div>
+          <div className="text-xl text- text-farb3 px-6 mt-4 mb-2 font-roboto ">Cocktails</div>
         )}
         {filteredCocktails.map((cocktail, idx) => (
           <button
             key={'cocktail-' + cocktail.name}
             onClick={() => setSelectedCocktail(cocktail)}
             className={
-              `w-full shadow pt-1 py-10 text-center text-farbfont font-bold ` +
+              `w-full shadow pt-1 py-10 text-center text-farbfont font-anticdidone ` +
               (idx % 2 === 0 ? 'bg-farb6' : 'bg-farb4') +
               (idx !== 0 ? ' -mt-8' : '') +
               ' rounded-t-[2rem] ' +

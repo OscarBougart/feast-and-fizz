@@ -8,9 +8,9 @@ function FoodPage({ onBack, favorites = [], toggleFavorite }) {
   if (selectedFood) {
     return (
       <div className="sticky pb-20 min-h-screen flex-1 flex flex-col">
-        <button className="ml-auto text-farb3 justify-end mt-4 px-4 py-2 rounded" onClick={() => setSelectedFood(null)}>
-          Back to list
-        </button>
+        <button className="text-farbfont mr-auto  justify-start mt-4 px-4 py-2 rounded" onClick={()=> setSelectedFood(null)}>
+        <svg width="50px" height="50px" viewBox="0 0 1024 1024" fill="currentColor" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M669.6 849.6c8.8 8 22.4 7.2 30.4-1.6s7.2-22.4-1.6-30.4l-309.6-280c-8-7.2-8-17.6 0-24.8l309.6-270.4c8.8-8 9.6-21.6 2.4-30.4-8-8.8-21.6-9.6-30.4-2.4L360.8 480.8c-27.2 24-28 64-0.8 88.8l309.6 280z" fill=""/> </svg>
+      </button>
         <button
           className="mt-4 px-4 py-2 bg-farb1 text-white rounded"
           onClick={() => toggleFavorite(selectedFood)}
@@ -38,9 +38,7 @@ function FoodPage({ onBack, favorites = [], toggleFavorite }) {
             )}
           </div>
         </div>
-    <button className="mt-8 px-4 py-2 bg-farb1 text-white rounded" onClick={() => setSelectedFood(null)}>
-  Back
-</button>
+   +
       </div>
     );
   }
@@ -52,8 +50,8 @@ function FoodPage({ onBack, favorites = [], toggleFavorite }) {
 
   return (
     <div className="sticky pb-20 min-h-screen flex-1 flex flex-col">
-      <button className="ml-auto mb-8 justify-end text-farbfont mt-4 px-4 py-2 rounded" onClick={onBack}>
-        Back
+      <button className="text-farbfont mr-auto  justify-start mt-4 px-4 py-2 rounded" onClick={onBack}>
+        <svg width="50px" height="50px" viewBox="0 0 1024 1024" fill="currentColor" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M669.6 849.6c8.8 8 22.4 7.2 30.4-1.6s7.2-22.4-1.6-30.4l-309.6-280c-8-7.2-8-17.6 0-24.8l309.6-270.4c8.8-8 9.6-21.6 2.4-30.4-8-8.8-21.6-9.6-30.4-2.4L360.8 480.8c-27.2 24-28 64-0.8 88.8l309.6 280z" fill=""/> </svg>
       </button>
       <div className="pt-9 sticky top-0 z-10 ">
         <input

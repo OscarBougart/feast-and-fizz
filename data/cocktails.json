@@ -10,6 +10,616 @@
     "instructions": "Shake all ingredients with ice. Strain into a salt-rimmed glass."
   }, 
   {
+    "name": "Banana Rum Highball",
+    "ingredients": [
+      { "name": "Overproof Jamaican Rum", "amount": "45 ml" },
+      { "name": "Banana Liqueur", "amount": "15 ml" },
+      { "name": "Allspice Dram", "amount": "7.5 ml" },
+      { "name": "Falernum", "amount": "1 barspoon" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "Save the Last Dance",
+    "ingredients": [
+      { "name": "Aged Jamaican Rum", "amount": "22.5 ml" },
+      { "name": "Rhum Agricole", "amount": "22.5 ml" },
+      { "name": "Campari", "amount": "22.5 ml" },
+      { "name": "Averna", "amount": "22.5 ml" },
+      { "name": "Angostura Bitters", "amount": "4 dashes" },
+      { "name": "Orange Peel", "amount": "garnish" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "Walk of Fame",
+    "ingredients": [
+      { "name": "Overproof Jamaican Rum", "amount": "30 ml" },
+      { "name": "Aperol", "amount": "15 ml" },
+      { "name": "Yellow Chartreuse", "amount": "15 ml" },
+      { "name": "Pineapple Juice", "amount": "15 ml" },
+      { "name": "Lime Juice", "amount": "22.5 ml" },
+      { "name": "Angostura Bitters", "amount": "2 dashes" },
+      { "name": "Saline Solution", "amount": "3 dashes" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "Mammoth Tush",
+    "ingredients": [
+      { "name": "Rhum Agricole", "amount": "45 ml" },
+      { "name": "Green Chartreuse", "amount": "22.5 ml" },
+      { "name": "Falernum", "amount": "15 ml" },
+      { "name": "Lime Juice", "amount": "30 ml" },
+      { "name": "Pineapple Juice", "amount": "22.5 ml" },
+      { "name": "Orgeat", "amount": "15 ml" },
+      { "name": "Passionfruit Syrup", "amount": "15 ml" },
+      { "name": "Peychaud’s Bitters", "amount": "float" },
+      { "name": "Mint", "amount": "garnish" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "Modified Daiquiri",
+    "ingredients": [
+      { "name": "Coconut-washed Rum", "amount": "60 ml" },
+      { "name": "Montenegro", "amount": "15 ml" },
+      { "name": "Lime Juice", "amount": "30 ml" },
+      { "name": "Cane Syrup", "amount": "7.5 ml" },
+      { "name": "Angostura Bitters", "amount": "2 dashes" },
+      { "name": "Absinthe", "amount": "mist" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "L'amour Banana",
+    "ingredients": [
+      { "name": "Overproof Jamaican Rum", "amount": "30 ml" },
+      { "name": "Banana Liqueur", "amount": "30 ml" },
+      { "name": "Yellow Chartreuse", "amount": "30 ml" },
+      { "name": "Pineapple Juice", "amount": "30 ml" },
+      { "name": "Lemon Juice", "amount": "22.5 ml" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "Free Rider",
+    "ingredients": [
+      { "name": "151 Proof Rum", "amount": "30 ml" },
+      { "name": "Benedictine", "amount": "30 ml" },
+      { "name": "Fernet", "amount": "15 ml" },
+      { "name": "Pineapple Juice", "amount": "45 ml" },
+      { "name": "Lime Juice", "amount": "22.5 ml" },
+      { "name": "Demerara Syrup", "amount": "7.5 ml" },
+      { "name": "Angostura Bitters", "amount": "2 dashes" },
+      { "name": "Mint", "amount": "garnish" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "Fresh Metal",
+    "ingredients": [
+      { "name": "Rum", "amount": "30 ml" },
+      { "name": "Absinthe", "amount": "15 ml" },
+      { "name": "Licor 43", "amount": "15 ml" },
+      { "name": "Lemon Juice", "amount": "22.5 ml" },
+      { "name": "Orgeat", "amount": "7.5 ml" },
+      { "name": "Mint", "amount": "crushed garnish" },
+      { "name": "Green Chartreuse", "amount": "7.5 ml (float)" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "Passionfruit and Flowers",
+    "ingredients": [
+      { "name": "Spiced Rum", "amount": "60 ml" },
+      { "name": "Passionfruit Liqueur", "amount": "15 ml" },
+      { "name": "Elderflower Liqueur", "amount": "15 ml" },
+      { "name": "Lemon Juice", "amount": "22.5 or 15 ml" },
+      { "name": "Simple Syrup", "amount": "7.5 ml" },
+      { "name": "Mint", "amount": "crushed garnish" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "Wayward Son",
+    "ingredients": [
+      { "name": "Overproof Jamaican Rum", "amount": "45 ml" },
+      { "name": "Islay Scotch", "amount": "15 ml" },
+      { "name": "Coffee Liqueur", "amount": "7.5 ml" },
+      { "name": "Passionfruit Liqueur", "amount": "7.5 ml" },
+      { "name": "Orange Peel", "amount": "garnish" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "Spice Cream Soda",
+    "ingredients": [
+      { "name": "Aged Rum", "amount": "45 ml" },
+      { "name": "Licor 43", "amount": "22.5 ml" },
+      { "name": "Lime Juice", "amount": "30 ml" },
+      { "name": "Cinnamon Syrup", "amount": "7.5 ml" },
+      { "name": "Tonic Water", "amount": "90 ml" },
+      { "name": "Nutmeg", "amount": "grated" },
+      { "name": "Orange Peel", "amount": "garnish" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "This Bitter Pill",
+    "ingredients": [
+      { "name": "Pineapple Rum", "amount": "45 ml" },
+      { "name": "Montenegro", "amount": "22.5 ml" },
+      { "name": "Campari", "amount": "22.5 ml" },
+      { "name": "Orange Bitters", "amount": "2 dashes" },
+      { "name": "Pineapple", "amount": "garnish or expression" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "Modern Medicine",
+    "ingredients": [
+      { "name": "Bourbon", "amount": "45 ml" },
+      { "name": "Aperol", "amount": "15 ml" },
+      { "name": "Lemon Juice", "amount": "22.5 ml" },
+      { "name": "Demerara Syrup", "amount": "15 ml" },
+      { "name": "Angostura Bitters", "amount": "2 dashes" },
+      { "name": "Islay Scotch", "amount": "float" },
+      { "name": "Lemon", "amount": "garnish" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "Pillow Mint",
+    "ingredients": [
+      { "name": "Bourbon", "amount": "60 ml" },
+      { "name": "Crème de Cacao", "amount": "15 ml" },
+      { "name": "Simple Syrup", "amount": "7.5 ml" },
+      { "name": "Mint Leaves", "amount": "5 leaves" },
+      { "name": "Soda Water", "amount": "top" },
+      { "name": "Crushed Ice", "amount": "fill" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "Port Light 2.0",
+    "ingredients": [
+      { "name": "Single Malt Scotch", "amount": "45 ml" },
+      { "name": "Cognac", "amount": "15 ml" },
+      { "name": "Lemon Juice", "amount": "30 ml" },
+      { "name": "Grenadine", "amount": "15 ml" },
+      { "name": "Passionfruit Syrup", "amount": "15 ml" },
+      { "name": "Egg White", "amount": "1" },
+      { "name": "Lemon", "amount": "garnish" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "You’d Better Second Line",
+    "ingredients": [
+      { "name": "Bourbon", "amount": "45 ml" },
+      { "name": "Islay Scotch", "amount": "15 ml" },
+      { "name": "Lemon Juice", "amount": "22.5 ml" },
+      { "name": "Orgeat", "amount": "22.5 ml" },
+      { "name": "Passionfruit Syrup", "amount": "22.5 ml" },
+      { "name": "Angostura Bitters", "amount": "2 dashes" },
+      { "name": "Peychaud's Bitters", "amount": "2 dashes" },
+      { "name": "Mint", "amount": "crushed garnish" },
+      { "name": "Lemon", "amount": "garnish" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "Outlaw Country",
+    "ingredients": [
+      { "name": "Bourbon", "amount": "30 ml" },
+      { "name": "Pineapple Rum", "amount": "15 ml" },
+      { "name": "Overproof Jamaican Rum", "amount": "7.5 ml" },
+      { "name": "Averna", "amount": "7.5 ml" },
+      { "name": "Vanilla Syrup", "amount": "1 tsp" },
+      { "name": "Angostura Bitters", "amount": "1 dash" },
+      { "name": "Orange Peel", "amount": "garnish" }
+    ],
+    "instructions": ""
+  },
+  {
+    "name": "Cobble Hill",
+    "ingredients": [
+      { "name": "Rye Whiskey", "amount": "60 ml" },
+      { "name": "Montenegro", "amount": "15 ml" },
+      { "name": "Dry Vermouth", "amount": "7.5 ml" },
+      { "name": "Cucumber", "amount": "2 slices" }
+    ],
+    "instructions": "Stirred. Serve in Nick & Nora glass. Garnish with cucumber."
+  },
+  {
+    "name": "Banana Pancakes",
+    "ingredients": [
+      { "name": "Rye Whiskey", "amount": "30 ml" },
+      { "name": "Amaretto", "amount": "30 ml" },
+      { "name": "Banana Liqueur", "amount": "15 ml" },
+      { "name": "Orange Juice", "amount": "30 ml" },
+      { "name": "Lemon Juice", "amount": "15 ml" },
+      { "name": "Lime Juice", "amount": "15 ml" },
+      { "name": "Egg White", "amount": "1" },
+      { "name": "Nutmeg", "amount": "grated" }
+    ],
+    "instructions": "Shake and strain up. Garnish with grated nutmeg."
+  },
+  {
+    "name": "Invisible Hand",
+    "ingredients": [
+      { "name": "Rye Whiskey", "amount": "30 ml" },
+      { "name": "Montenegro", "amount": "22.5 ml" },
+      { "name": "Luxardo Bitter", "amount": "22.5 ml" },
+      { "name": "Lemon Juice", "amount": "22.5 ml" },
+      { "name": "Demerara Syrup", "amount": "15 ml" },
+      { "name": "Angostura Bitters", "amount": "2 dashes" },
+      { "name": "Grapefruit", "amount": "garnish" }
+    ],
+    "instructions": "Shake and strain over ice. Garnish with grapefruit peel."
+  },
+  {
+    "name": "Squeaky Wheel",
+    "ingredients": [
+      { "name": "Mezcal", "amount": "30ml" },
+      { "name": "Campari", "amount": "30ml" },
+      { "name": "Coffee", "amount": "22.5ml" },
+      { "name": "Amaretto", "amount": "7.5ml" }
+    ],
+    "instructions": "Stir all with ice. Strain and garnish with orange."
+  },
+  {
+    "name": "Mezcal Me Maybe",
+    "ingredients": [
+      { "name": "Vanilla Mezcal", "amount": "unknown" },
+      { "name": "Aperol", "amount": "22.5ml" },
+      { "name": "Yellow Chartreuse", "amount": "22.5ml" },
+      { "name": "Licor 43", "amount": "7.5ml" },
+      { "name": "Lime Juice", "amount": "22.5ml" }
+    ],
+    "instructions": "Shake with ice and strain into glass."
+  },
+  {
+    "name": "Pink Rabbit",
+    "ingredients": [
+      { "name": "Mezcal", "amount": "37.5ml" },
+      { "name": "Montenegro", "amount": "37.5ml" },
+      { "name": "Campari", "amount": "22.5ml" }
+    ],
+    "instructions": "Stir all with ice. Garnish with orange."
+  },
+  {
+    "name": "Elder Fashion",
+    "ingredients": [
+      { "name": "Gin", "amount": "60ml" },
+      { "name": "Elderflower Liqueur", "amount": "15ml" },
+      { "name": "Orange Bitters", "amount": "2 dashes" }
+    ],
+    "instructions": "Stir down with ice. Garnish with grapefruit."
+  },
+  {
+    "name": "Everything but the Flowers",
+    "ingredients": [
+      { "name": "Gin", "amount": "60ml" },
+      { "name": "Crème de Cacao", "amount": "15ml" },
+      { "name": "Lemon Juice", "amount": "22.5ml" },
+      { "name": "Strawberry Syrup", "amount": "22.5ml" },
+      { "name": "Egg White", "amount": "1" }
+    ],
+    "instructions": "Dry shake, then shake with ice. Strain into a glass."
+  },
+  {
+    "name": "Pink Skies",
+    "ingredients": [
+      { "name": "Gin", "amount": "60ml" },
+      { "name": "Dry Vermouth", "amount": "15ml" },
+      { "name": "Lemon Juice", "amount": "22.5ml" },
+      { "name": "Heavy Cream", "amount": "22.5ml" },
+      { "name": "Raspberry Syrup", "amount": "22.5ml" },
+      { "name": "Absinthe", "amount": "4 dashes" },
+      { "name": "Egg White", "amount": "1" }
+    ],
+    "instructions": "Dry shake, then shake with ice. Fine strain and serve."
+  },
+  {
+    "name": "Juan Jose",
+    "ingredients": [
+      { "name": "Gin", "amount": "37.5ml" },
+      { "name": "Dry Vermouth", "amount": "22.5ml" },
+      { "name": "Jamaican Rum", "amount": "7.5ml" },
+      { "name": "Crème de Pêche", "amount": "7.5ml" },
+      { "name": "Angostura Bitters", "amount": "2 dashes" }
+    ],
+    "instructions": "Stir and strain into a chilled glass. Garnish with cherry."
+  },
+  {
+    "name": "Argentina",
+    "ingredients": [
+      { "name": "Gin", "amount": "30ml" },
+      { "name": "Dry Vermouth", "amount": "30ml" },
+      { "name": "Benedictine", "amount": "7.5ml" },
+      { "name": "Cointreau", "amount": "7.5ml" },
+      { "name": "Angostura Bitters", "amount": "1 dash" },
+      { "name": "Orange Bitters", "amount": "1 dash" }
+    ],
+    "instructions": "Stir and strain into a cocktail glass. Garnish with orange."
+  },
+  {
+    "name": "Portorico",
+    "ingredients": [
+      { "name": "Gin", "amount": "37.5ml" },
+      { "name": "White Vermouth", "amount": "22.5ml" },
+      { "name": "Overproof Jamaican Rum", "amount": "7.5ml" },
+      { "name": "Banana Liqueur", "amount": "7.5ml" }
+    ],
+    "instructions": "Stir and strain into a coupe."
+  },
+  {
+    "name": "Bijou",
+    "ingredients": [
+      { "name": "Gin", "amount": "45ml" },
+      { "name": "Green Chartreuse", "amount": "22.5ml" },
+      { "name": "Sweet Vermouth", "amount": "22.5ml" },
+      { "name": "Orange Bitters", "amount": "2 dashes" }
+    ],
+    "instructions": "Stir with ice and serve up with a lemon twist."
+  },
+  {
+    "name": "Dupree",
+    "ingredients": [
+      { "name": "Gin", "amount": "60ml" },
+      { "name": "Aperol", "amount": "15ml" },
+      { "name": "Elderflower Liqueur", "amount": "16.5ml" },
+      { "name": "Absinthe", "amount": "Rinse" }
+    ],
+    "instructions": "Stir and strain into an absinthe-rinsed glass."
+  },
+  {
+    "name": "Comte de Sureau",
+    "ingredients": [
+      { "name": "Gin", "amount": "45ml" },
+      { "name": "Elderflower Liqueur", "amount": "22.5ml" },
+      { "name": "Campari", "amount": "7.5ml" }
+    ],
+    "instructions": "Stir with ice and serve with orange and lemon peel."
+  },
+  {
+    "name": "Lux Rosea",
+    "ingredients": [
+      { "name": "Gin", "amount": "45ml" },
+      { "name": "Lillet Blanc", "amount": "22.5ml" },
+      { "name": "Dry Vermouth", "amount": "15ml" },
+      { "name": "Yellow Chartreuse", "amount": "7.5ml" },
+      { "name": "Maraschino", "amount": "1 tbsp" },
+      { "name": "Peychaud’s Bitters", "amount": "2 dashes" }
+    ],
+    "instructions": "Stir down and serve with grapefruit twist."
+  },
+  {
+    "name": "Panamericano",
+    "ingredients": [
+      { "name": "Pisco", "amount": "30ml" },
+      { "name": "White Vermouth", "amount": "30ml" },
+      { "name": "Cocchi Americano", "amount": "30ml" }
+    ],
+    "instructions": "Stir and serve down with orange twist."
+  },
+  {
+    "name": "Edison's Medicine",
+    "ingredients": [
+      { "name": "Cachaça", "amount": "45ml" },
+      { "name": "Yellow Chartreuse", "amount": "15ml" },
+      { "name": "Lime Juice", "amount": "22.5ml" },
+      { "name": "Agave Syrup", "amount": "15ml" },
+      { "name": "Basil Leaves", "amount": "6 leaves" }
+    ],
+    "instructions": "Shake with ice and fine strain into a chilled glass."
+  },
+  {
+    "name": "Tipsy Jitters",
+    "ingredients": [
+      { "name": "Vodka", "amount": "30ml" },
+      { "name": "Cold Brew", "amount": "30ml" },
+      { "name": "Coffee Liqueur", "amount": "15ml" },
+      { "name": "Averna", "amount": "7.5ml" },
+      { "name": "Licor 43", "amount": "7.5ml" }
+    ],
+    "instructions": "Stir with ice and strain. Float Angostura cream on top."
+  },
+  {
+    "name": "City Club",
+    "ingredients": [
+      { "name": "Vodka", "amount": "30ml" },
+      { "name": "Campari", "amount": "15ml" },
+      { "name": "White Vermouth", "amount": "15ml" },
+      { "name": "Lemon Juice", "amount": "22.5ml" },
+      { "name": "Raspberry Syrup", "amount": "22.5ml" },
+      { "name": "Egg White", "amount": "1" }
+    ],
+    "instructions": "Shake and strain into a chilled glass."
+  },
+  {
+    "name": "Edge of Tomorrow",
+    "ingredients": [
+      { "name": "Vodka", "amount": "45ml" },
+      { "name": "Dry Vermouth", "amount": "22.5ml" },
+      { "name": "Lemon Juice", "amount": "22.5ml" },
+      { "name": "Cinnamon Syrup", "amount": "22.5ml" },
+      { "name": "Branca Menta", "amount": "1 tsp" }
+    ],
+    "instructions": "Shake and serve over crushed ice with mint."
+  },
+  {
+    "name": "Mermaid Cafe",
+    "ingredients": [
+      { "name": "Blended Rum", "amount": "37.5ml" },
+      { "name": "Jamaican Rum", "amount": "22.5ml" },
+      { "name": "Lemon Juice", "amount": "22.5ml" },
+      { "name": "Pineapple Juice", "amount": "22.5ml" },
+      { "name": "Coconut Cream", "amount": "22.5ml" },
+      { "name": "Simple Syrup", "amount": "7.5ml" },
+      { "name": "Allspice Dram", "amount": "1 barspoon" }
+    ],
+    "instructions": "Whip shake with crushed ice. Garnish with cinnamon."
+  },
+  {
+    "name": "Unnamed Scotch Cocktail",
+    "ingredients": [
+      { "name": "Scotch", "amount": "45ml" },
+      { "name": "Sweet Vermouth", "amount": "30ml" },
+      { "name": "Crème de Cacao", "amount": "7.5ml" },
+      { "name": "Green Chartreuse", "amount": "7.5ml" },
+      { "name": "Angostura Bitters", "amount": "1 dash" },
+      { "name": "Orange Bitters", "amount": "1 dash" }
+    ],
+    "instructions": "Stir and serve up with orange."
+  },
+  {
+    "name": "Sicilian Wit",
+    "ingredients": [
+      { "name": "Averna", "amount": "30ml" },
+      { "name": "Montenegro", "amount": "30ml" },
+      { "name": "Lime Juice", "amount": "22.5ml" },
+      { "name": "Simple Syrup", "amount": "22.5ml" }
+    ],
+    "instructions": "Whip shake and pour over rocks. Garnish with dehydrated orange."
+  },
+  {
+    "name": "Little Wing",
+    "ingredients": [
+      { "name": "Mezcal", "amount": "22.5ml" },
+      { "name": "Elderflower Liqueur", "amount": "22.5ml" },
+      { "name": "Aperol", "amount": "22.5ml" },
+      { "name": "Lime Juice", "amount": "22.5ml" },
+      { "name": "Cucumber slices", "amount": "2 slices" }
+    ],
+    "instructions": "Shake with cucumber and ice. Strain into glass."
+  },
+  {
+    "name": "Sea Legs",
+    "ingredients": [
+      { "name": "Mezcal", "amount": "30ml" },
+      { "name": "Islay Scotch", "amount": "30ml" },
+      { "name": "Lime Juice", "amount": "22.5ml" },
+      { "name": "Orgeat", "amount": "22.5ml" },
+      { "name": "Celery Bitters", "amount": "2 dashes" }
+    ],
+    "instructions": "Shake with ice and strain. Garnish with lime."
+  },
+  {
+    "name": "Berlin in the 70s",
+    "ingredients": [
+      { "name": "Mezcal", "amount": "30ml" },
+      { "name": "Tequila Blanco", "amount": "30ml" },
+      { "name": "Orange Juice", "amount": "30ml" },
+      { "name": "Lemon Juice", "amount": "15ml" },
+      { "name": "Cinnamon Bitters", "amount": "15ml" }
+    ],
+    "instructions": "Shake with ice. Strain into rocks glass. Garnish with orange twist."
+  },
+  {
+    "name": "Tulum Raider",
+    "ingredients": [
+      { "name": "Tequila", "amount": "45ml" },
+      { "name": "Mezcal", "amount": "15ml" },
+      { "name": "Aperol", "amount": "15ml" },
+      { "name": "Lime Juice", "amount": "30ml" },
+      { "name": "Pineapple Juice", "amount": "22.5ml" },
+      { "name": "Agave Syrup", "amount": "1 tsp" },
+      { "name": "Grapefruit Bitters", "amount": "2 dashes" }
+    ],
+    "instructions": "Shake all ingredients with ice and strain into a glass."
+  },
+  {
+    "name": "Platano de mi Ojo",
+    "ingredients": [
+      { "name": "Tequila Reposado", "amount": "45ml" },
+      { "name": "Mezcal", "amount": "15ml" },
+      { "name": "Banana Liqueur", "amount": "15ml" },
+      { "name": "Licor 43", "amount": "7.5ml" },
+      { "name": "Coffee Liqueur", "amount": "7.5ml" }
+    ],
+    "instructions": "Stir down with ice and strain over rocks. Garnish with orange."
+  },
+  {
+    "name": "Randall Porter",
+    "ingredients": [
+      { "name": "Tequila Reposado", "amount": "37.5ml" },
+      { "name": "Banana Liqueur", "amount": "15ml" },
+      { "name": "Fernet", "amount": "15ml" },
+      { "name": "Demerara Syrup", "amount": "7.5ml" },
+      { "name": "Angostura Bitters", "amount": "2 dashes" }
+    ],
+    "instructions": "Stir down with ice. Garnish with orange."
+  },
+  {
+    "name": "Pineapple Expressions",
+    "ingredients": [
+      { "name": "Tequila", "amount": "45ml" },
+      { "name": "Banana Liqueur", "amount": "7.5ml" },
+      { "name": "Pineapple Juice", "amount": "30ml" },
+      { "name": "Lime Juice", "amount": "15ml" },
+      { "name": "Cinnamon Syrup", "amount": "15ml" }
+    ],
+    "instructions": "Shake with ice and strain into a chilled glass."
+  },
+  {
+    "name": "Hole in the Cup",
+    "ingredients": [
+      { "name": "Tequila", "amount": "45ml" },
+      { "name": "Absinthe", "amount": "7.5ml" },
+      { "name": "Pineapple Juice", "amount": "30ml" },
+      { "name": "Lime Juice", "amount": "22.5ml" },
+      { "name": "Simple Syrup", "amount": "22.5ml" },
+      { "name": "Cucumber Slices", "amount": "2 slices" }
+    ],
+    "instructions": "Whip shake with crushed ice and serve. Garnish with mint."
+  },
+  {
+    "name": "Pale Rider",
+    "ingredients": [
+      { "name": "Tequila Reposado", "amount": "45ml" },
+      { "name": "Mezcal", "amount": "15ml" },
+      { "name": "Cointreau", "amount": "15ml" },
+      { "name": "Dry Vermouth", "amount": "15ml" },
+      { "name": "Angostura Bitters", "amount": "2 dashes" },
+      { "name": "Orange Bitters", "amount": "2 dashes" }
+    ],
+    "instructions": "Stir down and strain. Garnish with orange."
+  },
+  {
+    "name": "Jalisco Shake Down",
+    "ingredients": [
+      { "name": "Tequila Reposado", "amount": "45ml" },
+      { "name": "Aperol", "amount": "15ml" },
+      { "name": "Lime Juice", "amount": "22.5ml" },
+      { "name": "Passionfruit Syrup", "amount": "22.5ml" }
+    ],
+    "instructions": "Shake with ice and strain. Float Peychaud's bitters."
+  },
+  {
+    "name": "Rosalita",
+    "ingredients": [
+      { "name": "Tequila", "amount": "60ml" },
+      { "name": "Montenegro", "amount": "15ml" },
+      { "name": "Lime Juice", "amount": "22.5ml" },
+      { "name": "Agave Syrup", "amount": "22.5ml" },
+      { "name": "Saline Solution", "amount": "1 dash" }
+    ],
+    "instructions": "Shake with crushed ice. Garnish with lime."
+  },
+  {
+    "name": "Alta California",
+    "ingredients": [
+      { "name": "Tequila", "amount": "60ml" },
+      { "name": "White Vermouth", "amount": "22.5ml" },
+      { "name": "Yellow Chartreuse", "amount": "15ml" },
+      { "name": "Cinnamon", "amount": "0.25 tsp" }
+    ],
+    "instructions": "Stir and serve up."
+  },
+  {
     "name": "20th Century",
     "ingredients": [
       { "name": "Gin", "amount": "50ml" },
@@ -50,32 +660,7 @@
       { "name": "Honey Syrup", "amount": "10ml" }
     ],
     "instructions": "Dry shake , pour, crushed ice, float campari garnish mint."
-  }, 
-   {
-    "name": "",
-    "ingredients": [
-      { "name": "", "amount": "" },
-      { "name": "", "amount": "" },
-      { "name": "", "amount": "" },
-      { "name": "", "amount": "" },
-      { "name": "", "amount": "" },
-      { "name": "", "amount": "" }
-    ],
-    "instructions": ""
-  }, 
-   {
-    "name": "",
-    "ingredients": [
-      { "name": "", "amount": "" },
-      { "name": "", "amount": "" },
-      { "name": "", "amount": "" },
-      { "name": "", "amount": "" },
-      { "name": "", "amount": "" },
-      { "name": "", "amount": "" }
-    ],
-    "instructions": ""
-  }, 
-  
+  },   
   {
     "name": "Old Fashioned",
     "ingredients": [
