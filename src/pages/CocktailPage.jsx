@@ -1,53 +1,22 @@
 import { useState } from 'react';
 import cocktails from '/data/cocktails.json';
+import CocktailCard from "../components/CocktailCard";
+
 
 function CocktailPage({ onBack, favorites = [], toggleFavorite }) {
   const [selectedCocktail, setSelectedCocktail] = useState(null);
   const [query, setQuery] = useState('');
 
   if (selectedCocktail) {
-    return (
-      <div className="sticky pb-20 min-h-screen flex-1 flex flex-col">
-     <button
-        className="text-farbfont mr-auto justify-start mt-4 px-4 py-2 rounded"
-        onClick={() => setSelectedCocktail(null)}
-      >
-            <svg width="50px" height="50px" viewBox="0 0 1024 1024" fill="currentColor" className="icon" version="1.1" xmlns="http://www.w3.org/2000/svg">
-            <path d="M669.6 849.6c8.8 8 22.4 7.2 30.4-1.6s7.2-22.4-1.6-30.4l-309.6-280c-8-7.2-8-17.6 0-24.8l309.6-270.4c8.8-8 9.6-21.6 2.4-30.4-8-8.8-21.6-9.6-30.4-2.4L360.8 480.8c-27.2 24-28 64-0.8 88.8l309.6 280z" />
-        </svg>
-      </button>
-        <button
-          className="mt-4 px-4 py-2 bg-farb1 text-white rounded"
-          onClick={() => toggleFavorite(selectedCocktail)}
-        >
-          {favorites.some(fav => fav.name === selectedCocktail.name) ? "Remove from Favorites" : "Add to Favorites"}
-        </button>
-        
-        <div className="pt-6 sticky top-0 z-10 ">
-          <h1 className="text-3xl text-farb3 font-extrabold text-center font-roboto mb-4">{selectedCocktail.name}</h1>
-        </div>
-        <div className="flex flex-col items-center px-6">
-          <div className="w-full  max-w-xl text-farb3 p-6 mb-6">
-            <ul className="mb-4 ml-2 font-light italic text-xl -tracking-tighter font-spectral">
-              {selectedCocktail.ingredients.map((ing, i) => (
-                <li key={i}>
-                  {ing.amount ? `${ing.amount} ` : ''}
-                  {ing.name}
-                </li>
-              ))}
-            </ul>
-            {selectedCocktail.instructions && (
-              <>
-                <h2 className="text-xl  font-bold mb-2"></h2>
-                <p className="text-md  font-overpass">{selectedCocktail.instructions}</p>
-              </>
-            )}
-          </div>
-        </div>
-       
-      </div>
-    );
-  }
+  return (
+    <CocktailCard
+      cocktail={selectedCocktail}
+      onBack={() => setSelectedCocktail(null)}
+      isFavorite={favorites.some(fav => fav.name === selectedCocktail.name)}
+      onToggleFavorite={() => toggleFavorite(selectedCocktail)}
+    />
+  );
+}
 
  const filtered = cocktails.filter(c =>
   c.name.toLowerCase().includes(query.toLowerCase()) ||
@@ -59,7 +28,7 @@ function CocktailPage({ onBack, favorites = [], toggleFavorite }) {
   return (
     <div className="sticky pb-20 min-h-screen flex-1 flex flex-col">
       <button className="text-farbfont mr-auto  justify-start mt-4 px-4 py-2 rounded" onClick={onBack}>
-        <svg width="50px" height="50px" viewBox="0 0 1024 1024" fill="currentColor" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M669.6 849.6c8.8 8 22.4 7.2 30.4-1.6s7.2-22.4-1.6-30.4l-309.6-280c-8-7.2-8-17.6 0-24.8l309.6-270.4c8.8-8 9.6-21.6 2.4-30.4-8-8.8-21.6-9.6-30.4-2.4L360.8 480.8c-27.2 24-28 64-0.8 88.8l309.6 280z" fill=""/> </svg>
+        <svg width="50px" height="50px" viewBox="0 0 1024 1024" fill="currentColor" className="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M669.6 849.6c8.8 8 22.4 7.2 30.4-1.6s7.2-22.4-1.6-30.4l-309.6-280c-8-7.2-8-17.6 0-24.8l309.6-270.4c8.8-8 9.6-21.6 2.4-30.4-8-8.8-21.6-9.6-30.4-2.4L360.8 480.8c-27.2 24-28 64-0.8 88.8l309.6 280z" fill=""/> </svg>
       </button>
       <div className="pt-9 sticky top-0 z-10 ">
         <input

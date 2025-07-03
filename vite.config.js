@@ -5,13 +5,12 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig({
   plugins: [
     react(),
-    
     VitePWA({
       registerType: 'autoUpdate',
-      base: './',
+      base: '/',
       injectRegister: 'script',
       devOptions: {
-        enabled: true
+        enabled: false
       },
       includeAssets: ['favicon.svg', 'favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
@@ -35,6 +34,16 @@ export default defineConfig({
           }
         ],
       },
+      server: {
+    host: 'localhost',
+    port: 5173,
+    strictPort: true,
+    hmr: {
+      protocol: 'ws',
+      host: 'localhost',
+      port: 5173,
+    },
+  },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
         runtimeCaching: [
